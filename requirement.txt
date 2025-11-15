@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+httpx
+pydantic
+PyPDF2
+openai
+google-cloud-storage
+GitPython
+PyYAML
+requests
+loguru
+prometheus-client
+python-dotenv
+tqdm

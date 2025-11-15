@@ -1,0 +1,35 @@
+{
+  "policies": [
+    {
+      "id": "GDPR-01",
+      "title": "Personal Data Storage",
+      "keywords": [
+        "personal data",
+        "PII",
+        "personally identifiable",
+        "name",
+        "email",
+        "ssn"
+      ],
+      "description": "Personal data must not be stored in plaintext or public repos, and must be access-controlled."
+    },
+    {
+      "id": "INFRA-01",
+      "title": "Cloud Credentials",
+      "keywords": [
+        "credentials",
+        "access_key",
+        "secret_key",
+        "aws_access_key",
+        "aws_secret_access_key"
+      ],
+      "description": "No plaintext credentials or secrets in configuration files or code."
+    },
+    {
+      "id": "SEC-01",
+      "title": "Logging & Monitoring",
+      "keywords": ["log", "logging", "monitoring", "audit log"],
+      "description": "Critical events must be logged and retained according to policy."
+    }
+  ]
+}
